@@ -21,9 +21,9 @@ const Navbar = () => {
     );
   } else {
     button = (
-        <a class="nav-item nav-link active mr-5" href="/login">
+      <Link to="/login"><a class="nav-item nav-link active mr-5" >
           Login
-        </a>
+        </a></Link>
     );
   }
   return (
