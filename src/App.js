@@ -54,7 +54,6 @@ return unsubscribe;
 
   return (
     <UserContext.Provider value={[logInUser, setLogInUser]}>
-           <h2>email: {logInUser?.email}</h2>
     <Router>
       <Switch>
         <Route exact path="/">
