@@ -57,7 +57,7 @@ const Admin = () => {
           ></input>
         </p>
         <p>
-          <span>Product url : </span>
+          <span>Picture url : </span>
           <input
             onChange={handleOnChange}
             name="url"
